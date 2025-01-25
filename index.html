@@ -16,19 +16,60 @@
     <!-- Tailwind-cdn-for java access -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
+    <style>
+        .manrope-font {
+            font-family: "Manrope", serif;
+        }
+    </style>
 </head>
 
-<body>
+<body class="manrope-font">
+    <header>
+        <!-- Banner-section -->
+        <section>
+            <div class="max-w-screen-xl my-16 mx-auto flex content-between">
+                <!-- Banner-Text-part -->
+                <div>
+                    <h2 class="text-7xl text-[#1C1C1C] font-extrabold mb-8">It's good
+                        <br>tea time at The <br>Tea House
+                    </h2>
+                    <p class="w-3/4 text-lg text-[#777777] font-medium mb-8">Tea and Botanical Solutions Supplier Give
+                        Optimum Satisfaction To Your Taste Buds.</p>
+                    <button
+                        class="text-xl text-[#FFFFFF] font-bold py-4 px-5 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg">Explore
+                        More <i class="fa-solid fa-arrow-right-long -rotate-45"></i></button>
+                </div>
+                <div>
+                    <!-- Banner-img-part -->
+                    <img src="images/banner.png" alt="">
+                    <div class="flex items-center gap-3 absolute rounded-lg bg-[#FFFFFF] shadow-lg py-5 px-7">
+                        <!-- card-icon -->
+                    <div><i class="fa-solid fa-star text-4xl text-[#FFC850]"></i></div>
+                    <!-- card-text -->
+                    <div>
+                        <h3 class="text-3xl text-[#1C1C1C] font-extrabold">5.00</h3>
+                        <p class="text-base text-[#777777] font-semibold">Trust Pilot Ratings</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
 
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
